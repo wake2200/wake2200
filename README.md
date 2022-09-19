@@ -1,13 +1,12 @@
-- 👋 Hi, I’m @wake2200
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+#include <Servo.h>
+//defining Servoss
 
-<!---
-wake2200/wake2200 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+#define TOLERANCE       10
+#define STEP_DELAY      7
+Servo servohori;
+int servoh = 0;
+int servohLimitHigh = 160;
+int servohLimitLow = 20;
 
 Servo servoverti;
 int servov = 0;
